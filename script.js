@@ -84,12 +84,13 @@ var TrandingSlider = new Swiper('.tranding-slider', {
         
   // Function to apply the theme
   function applyTheme(theme) {
-      if (theme === 'dark') {
+      if (theme === 'dark'){
           document.body.setAttribute('data-bs-theme', 'dark');
           document.body.classList.replace('bg-light', 'bg-dark');
           document.body.classList.replace('text-dark', 'text-light');
           darkModeToggle.src = 'assets/sun.png';
-      } else {
+      } 
+      else{
           document.body.removeAttribute('data-bs-theme');
           document.body.classList.replace('bg-dark', 'bg-light');
           document.body.classList.replace('text-light', 'text-dark');
