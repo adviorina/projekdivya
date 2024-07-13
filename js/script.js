@@ -89,11 +89,13 @@ var TrandingSlider = new Swiper('.tranding-slider', {
           document.body.classList.replace('bg-light', 'bg-dark');
           document.body.classList.replace('text-dark', 'text-light');
           darkModeToggle.src = '../assets/sun.png';
+          darkModeToggle.src = 'assets/moon.png';
       } else {
           document.body.removeAttribute('data-bs-theme');
           document.body.classList.replace('bg-dark', 'bg-light');
           document.body.classList.replace('text-light', 'text-dark');
           darkModeToggle.src = '../assets/moon.png';
+          darkModeToggle.src = 'assets/moon.png';
       }
   }
 
